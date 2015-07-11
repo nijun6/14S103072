@@ -1,0 +1,20 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">阿里小视窗</string>
+  <string name="clock_colon">:</string>
+  <string name="clock_am">上午</string>
+  <string name="clock_pm">下午</string>
+  <string name="date_format">M 月 d 日</string>
+  <string name="dayofweek_zero">周日</string>
+  <string name="dayofweek_one">周一</string>
+  <string name="dayofweek_two">周二</string>
+  <string name="dayofweek_three">周三</string>
+  <string name="dayofweek_four">周四</string>
+  <string name="dayofweek_five">周五</string>
+  <string name="dayofweek_six">周六</string>
+  <string name="incall_talking">通话中···</string>
+  <string name="incall_holding">保持通话</string>
+  <string name="incall_dailing">正在拨号</string>
+  <string name="time_is_up">计时结束</string>
+  <string name="alarm">闹钟</string>
+
+</resources>

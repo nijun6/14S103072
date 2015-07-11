@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000"
+    android:orientation="vertical" >
+      <com.aliyun.alismallwindows.view.RobotoTextView
+        android:id="@+id/name_calling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textColor="#FFFFFFFF"
+        android:textSize="27sp"
+        android:maxWidth="250dp"
+		android:ellipsize="end"
+		android:singleLine="true"
+		android:gravity="center_horizontal"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center_horizontal">
+        <com.aliyun.alismallwindows.view.RobotoTextView
+	        android:id="@+id/callingtxt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#b3FFFFFF"
+	        android:textSize="14sp"
+			android:text="@string/incall_talking"
+        />
+       <Chronometer android:id="@+id/time"
+	      
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="12dp"
+			android:textColor="#b3FFFFFF"
+	        android:textSize="14sp"
+        />
+    </LinearLayout>
+    
+     <ImageButton
+            android:id="@+id/endbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:padding="5dip"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_dial_end_call_btn" 
+            />
+    
+</LinearLayout>

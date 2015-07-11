@@ -1,0 +1,20 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">AliSmallWindows</string>
+  <string name="clock_colon">:</string>
+  <string name="clock_am">AM</string>
+  <string name="clock_pm">PM</string>
+  <string name="date_format">MMMM d</string>
+  <string name="dayofweek_zero">Sun</string>
+  <string name="dayofweek_one">Mon</string>
+  <string name="dayofweek_two">Tue</string>
+  <string name="dayofweek_three">Wed</string>
+  <string name="dayofweek_four">Thu</string>
+  <string name="dayofweek_five">Fri</string>
+  <string name="dayofweek_six">Sat</string>
+  <string name="incall_talking">In call···</string>
+  <string name="incall_holding">Holding</string>
+  <string name="incall_dailing">Dailing</string>
+  <string name="time_is_up">Time up</string>
+  <string name="alarm">Alarm</string>
+  <string name="minus">-</string>
+</resources>
